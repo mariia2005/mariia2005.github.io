@@ -126,13 +126,17 @@ section {
 
 
 footer {
+  display: inline-block;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1px;
+  padding: 5px;
   padding-left: 5px;
   border: 2px solid #FAFAFA;
   position: relative;
+  clear: both;
+  
+
 }
 
 a#lib {
@@ -192,23 +196,25 @@ a#lib:hover {
   color: #EDEBF8;
 }
 
-.stand {
-  position: relative;
+section #stand {  
+  width: 55%;
   float: left;
   clear: left;
-  margin: 5px;
-  width: 55%;
-  border: 2px solid #EDEBF8;
+  margin: 10px;
+  border: 2px solid #FAFAFA;
   list-style-type: square;
-  padding-left: 10px;
+  padding: 3px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
 }
 
-#fotozorg img {
-  position: relative;
-  width: 35%;
+
+
+#fotozorg {
+  
   margin: 5px;
-  float: right;
+  width: 35%;
+  position: relative;
 }
 
 /* p.stand {
@@ -239,7 +245,7 @@ a#lib:hover {
 
 #tekstoverleden {
   /*clear: right;*/
-  float: right;
+  float: left;
   border: 2px solid #5C82DA;
   position: relative;
   padding: 10px;
