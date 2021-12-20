@@ -120,8 +120,28 @@ section {
   margin-left: 15px;
   margin-bottom: 15px;
   height: 100%;
+  float: left;
+  clear: left;
+
 
 }
+
+#flayer img {
+  width: 97%;
+  margin-left: 15px;
+  float: left;
+  clear: left;
+  margin-bottom: 15px;
+}
+#filmpje {
+  float: left;
+  /* width: 50%;
+  height: 50%; */
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
 
 
 
@@ -197,9 +217,9 @@ a#lib:hover {
 }
 
 section #stand {  
-  width: 55%;
-  float: left;
-  clear: left;
+  width: 60%;
+  /* float: left;
+  clear: left; */
   margin: 10px;
   border: 2px solid #FAFAFA;
   list-style-type: square;
@@ -213,7 +233,7 @@ section #stand {
 #fotozorg {
   
   margin: 5px;
-  width: 35%;
+  width: 97%;
   position: relative;
 }
 
@@ -269,7 +289,7 @@ section #stand {
 }
 
 .lidworden a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #113382;
   text-align: center;
   padding-left: 15px;
